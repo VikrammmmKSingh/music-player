@@ -1,0 +1,51 @@
+/*  xmlns="http://www.w3.org/2000/svg" */
+.border {
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-gray {
+    background-color: #1e1e1e;
+}
+.rounded {
+    border-radius: 10px;
+}
+.m-1{
+    margin: 5px;
+
+}
+.p-1{
+padding: 10px;
+}
+.play{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background-color: #03c703;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    left: 149px;
+    top: 170px;
+    transition: all 1s ease-out;
+    cursor: pointer;
+}
